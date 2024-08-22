@@ -1,88 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tayyaba Noor Siddiqui's Portfolio - Software Engineer with expertise in database design, fintech, and software development.">
-    <title>Tayyaba Noor Siddiqui - Software Engineer Portfolio</title>
+    <meta name="description" content="Tayyeba Noor Siddiqui - Software Engineer Portfolio">
+    <title>Software Engineer | Tayyeba Noor Siddiqui</title>
     <style>
-        /* General styles */
-        * {
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f5f7fa;
+            background-color: #f4f4f4;
             color: #333;
-            line-height: 1.6;
-            padding: 20px;
         }
 
         header {
             background-color: #0073e6;
-            color: #fff;
-            padding: 20px 0;
+            color: white;
+            padding: 1rem;
             text-align: center;
-            border-radius: 10px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         header h1 {
+            margin: 0;
             font-size: 2.5rem;
         }
 
-        header h2 {
-            font-size: 1.2rem;
-            font-weight: 300;
-            margin-top: 5px;
-        }
-
         .container {
-            max-width: 1100px;
+            max-width: 1000px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 2rem;
         }
 
-        section {
-            margin-bottom: 40px;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        .section {
+            margin-bottom: 3rem;
         }
 
-        h2 {
-            font-size: 1.8rem;
-            margin-bottom: 15px;
-            color: #0073e6;
+        .section h2 {
             border-bottom: 2px solid #0073e6;
-            padding-bottom: 5px;
-        }
-
-        ul {
-            list-style: none;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        .project-title {
-            font-weight: bold;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
             color: #0073e6;
+        }
+
+        .section p {
+            line-height: 1.6;
+        }
+
+        .portfolio-item {
+            margin-bottom: 2rem;
+        }
+
+        .portfolio-item h3 {
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
         }
 
         footer {
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
             background-color: #0073e6;
-            color: #fff;
-            border-radius: 10px;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
         }
 
         a {
@@ -94,123 +77,79 @@
             text-decoration: underline;
         }
 
-        .skills-container {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
+        .contact-info {
+            font-size: 1rem;
+            color: #0073e6;
         }
 
-        .skill-box {
-            width: 45%;
-            margin-bottom: 10px;
-            padding: 15px;
-            background-color: #f1f1f1;
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .portfolio-item {
+            background-color: white;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
             border-radius: 5px;
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05);
-        }
-
-        @media (max-width: 768px) {
-            .skills-container {
-                flex-direction: column;
-            }
-
-            .skill-box {
-                width: 100%;
-            }
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
-
 <body>
-    <header>
-        <h1>Tayyaba Noor Siddiqui</h1>
-        <h2>Software Engineer | Fintech Expert | Database Specialist</h2>
-    </header>
 
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a results-oriented Software Engineer with a strong focus on database design, fintech solutions, and software development. With hands-on experience in developing complex software applications, I am eager to leverage my skills in a dynamic organization.</p>
-        </section>
+<header>
+    <h1>Tayyeba Noor Siddiqui</h1>
+    <p>Software Engineer</p>
+</header>
 
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <ul>
-                <li>
-                    <strong>Software Engineer II, Mazik Global (Pvt.) Ltd.</strong> (05/2024 - Present) - Karachi, Pakistan
-                    <ul>
-                        <li>Trained in C#, .NET, JavaScript, VBScript.</li>
-                        <li>Collaborating with US-based clients using Scrum methodology.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Software Developer, Euronet Pakistan (Pvt.) Ltd.</strong> (06/2022 - 05/2024) - Karachi, Pakistan
-                    <ul>
-                        <li>Developed in-house utilities to streamline business processes.</li>
-                        <li>Worked with Agile teams to ensure timely software deployment.</li>
-                        <li>Handled SQL queries, DB2, and created reports using RPG for decision-making.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Software Engineer (Trainee), Softronic Systems (Pvt.) Ltd.</strong> (01/2022 - 05/2022) - Karachi, Pakistan
-                    <ul>
-                        <li>Back-end development using AngularJS, C#, SQL Server.</li>
-                        <li>Created and deployed RDLC reports, stored procedures, and developed UI/UX.</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
+<div class="container">
 
-        <section id="projects">
-            <h2>Professional Projects</h2>
-            <ul>
-                <li>
-                    <span class="project-title">ATM/CDM Addition Console Application</span> - Automated ATM/CDM additions with multiple database file entries.
-                </li>
-                <li>
-                    <span class="project-title">TRX/TXO Web Application</span> - Real-time tender purchase app that updates transactional data. Technologies: .Net, C#, Web API, SQL Server, HTML, CSS.
-                </li>
-                <li>
-                    <span class="project-title">Hospital Partner</span> - Web-based application for hospital management covering admin and doctor domain. Technologies: ASP.Net, SQL Server, HTML, CSS, RDLC Reports.
-                </li>
-            </ul>
-        </section>
+    <!-- About Me Section -->
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Tayyeba Noor Siddiqui, a passionate Software Engineer with expertise in various programming languages, 
+            database management, and creative skills such as calligraphy and sketching. With a background in IT 
+            and experience in teaching, I enjoy solving complex problems and creating meaningful software solutions.
+        </p>
+    </section>
 
-        <section id="skills">
-            <h2>Skills & Abilities</h2>
-            <div class="skills-container">
-                <div class="skill-box">
-                    <ul>
-                        <li>RPG, HTML, CSS, AngularJS</li>
-                        <li>SQL Queries & Databases (SQL Server, DB2)</li>
-                        <li>UI/UX Design</li>
-                    </ul>
-                </div>
-                <div class="skill-box">
-                    <ul>
-                        <li>Problem Solving</li>
-                        <li>Software Development</li>
-                        <li>Data Management (ETL)</li>
-                    </ul>
-                </div>
+    <!-- Portfolio Section -->
+    <section class="section" id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <h3>Project 1: Web Development</h3>
+                <p>A responsive website built using HTML, CSS, and JavaScript.</p>
             </div>
-        </section>
+            <div class="portfolio-item">
+                <h3>Project 2: Data Management System</h3>
+                <p>Designed a database-driven system for a hospital management application.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 3: Teaching Assistant Application</h3>
+                <p>A software tool to assist teachers with grading, assignments, and student records.</p>
+            </div>
+        </div>
+    </section>
 
-        <section id="education">
-            <h2>Education</h2>
-            <p><strong>BS in Information Technology</strong>, Bahria University, Karachi (2018 - 2022)</p>
-        </section>
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to contact me via email or phone.</p>
+        <p class="contact-info">
+            Email: <a href="mailto:tayyyabasiddiqui2398@gmail.com">tayyyabasiddiqui2398@gmail.com</a><br>
+            Phone: <a href="tel:+923320352099">+92 332 0352099</a>
+        </p>
+    </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:tayyabasiddiqui2398@gmail.com">tayyabasiddiqui2398@gmail.com</a></p>
-            <p>Phone: <a href="tel:+923320352099">+92 332 035 2099</a></p>
-        </section>
-    </div>
+</div>
 
-    <footer>
-        <p>&copy; 2024 Tayyaba Noor Siddiqui | Software Engineer</p>
-    </footer>
+<footer>
+    <p>&copy; 2024 Tayyeba Noor Siddiqui | All Rights Reserved</p>
+</footer>
+
 </body>
-
 </html>
